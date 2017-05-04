@@ -48,11 +48,6 @@ def update_row
   render("/directors/show_details.html.erb")
 end
 
-
-
-
-
-
   # DELETE
   def delete
     @director = Director.find(params[:id])
